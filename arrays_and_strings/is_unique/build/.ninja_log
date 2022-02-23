@@ -1,0 +1,27 @@
+# ninja log v5
+0	219	1645588699	CMakeFiles/isUnique.dir/main.cpp.o	32ff72bd2c34cdb9
+220	286	1645588699	isUnique	f4ebb25f2be06655
+1	282	1645589851	CMakeFiles/isUnique.dir/main.cpp.o	32ff72bd2c34cdb9
+282	346	1645589851	isUnique	f4ebb25f2be06655
+0	255	1645592654	CMakeFiles/isUnique.dir/main.cpp.o	32ff72bd2c34cdb9
+255	333	1645592654	isUnique	f4ebb25f2be06655
+1	196	1645592875	CMakeFiles/isUnique.dir/main.cpp.o	32ff72bd2c34cdb9
+1	496	1645592875	CMakeFiles/runTests.dir/tests.cpp.o	a66e95a20533a098
+0	101	1645592891	runTests	26346733c20e4071
+1	234	1645593138	CMakeFiles/isUnique.dir/main.cpp.o	32ff72bd2c34cdb9
+234	282	1645593138	isUnique	f4ebb25f2be06655
+1	211	1645593226	CMakeFiles/isUnique.dir/main.cpp.o	32ff72bd2c34cdb9
+0	495	1645593226	CMakeFiles/runTests.dir/tests.cpp.o	a66e95a20533a098
+1	117	1645593234	runTests	26346733c20e4071
+1	198	1645593332	CMakeFiles/isUnique.dir/main.cpp.o	32ff72bd2c34cdb9
+1	495	1645593332	CMakeFiles/runTests.dir/tests.cpp.o	a66e95a20533a098
+0	115	1645593340	runTests	26346733c20e4071
+1	141	1645593860	CMakeFiles/uniqueFunc.dir/isUnique.cpp.o	8058af20c106051f
+141	156	1645593860	libuniqueFunc.a	3bccb3ac5d94e434
+1	234	1645593860	CMakeFiles/isUnique.dir/main.cpp.o	32ff72bd2c34cdb9
+0	140	1645594132	CMakeFiles/uniqueFunc.dir/isUnique.cpp.o	8058af20c106051f
+140	150	1645594132	libuniqueFunc.a	3bccb3ac5d94e434
+1	216	1645594250	CMakeFiles/isUnique.dir/main.cpp.o	32ff72bd2c34cdb9
+0	52	1645594411	isUnique	98e9e788859fe5bf
+0	460	1645595074	CMakeFiles/runTests.dir/tests.cpp.o	a66e95a20533a098
+0	108	1645595153	runTests	bbbd6e0e8973927b
