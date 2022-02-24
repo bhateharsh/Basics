@@ -2,9 +2,11 @@
 #include <bitset>
 #include <vector>
 
+#define N_CHARS 128
+
 bool isUnique(const std::string &word)
 {
-    std::bitset<256> bits(0);
+    std::bitset<N_CHARS> bits(0);
     for (int i = 0; i < word.length(); ++i)
     {
         int value = word[i];

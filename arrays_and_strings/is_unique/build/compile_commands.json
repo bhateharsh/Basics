@@ -1,19 +1,19 @@
 [
 {
-  "directory": "/home/harshbhate/Codes/Basics/arrays_and_strings/is_unique/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7    -g   -o CMakeFiles/runTests.dir/tests.cpp.o -c /home/harshbhate/Codes/Basics/arrays_and_strings/is_unique/tests.cpp",
-  "file": "/home/harshbhate/Codes/Basics/arrays_and_strings/is_unique/tests.cpp"
+  "directory": "/home/harshbhate/Basics/arrays_and_strings/is_unique/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7    -g   -o CMakeFiles/runTests.dir/tests.cpp.o -c /home/harshbhate/Basics/arrays_and_strings/is_unique/tests.cpp",
+  "file": "/home/harshbhate/Basics/arrays_and_strings/is_unique/tests.cpp"
 },
 
 {
-  "directory": "/home/harshbhate/Codes/Basics/arrays_and_strings/is_unique/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7    -g   -o CMakeFiles/isUnique.dir/main.cpp.o -c /home/harshbhate/Codes/Basics/arrays_and_strings/is_unique/main.cpp",
-  "file": "/home/harshbhate/Codes/Basics/arrays_and_strings/is_unique/main.cpp"
+  "directory": "/home/harshbhate/Basics/arrays_and_strings/is_unique/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7    -g   -o CMakeFiles/isUnique.dir/main.cpp.o -c /home/harshbhate/Basics/arrays_and_strings/is_unique/main.cpp",
+  "file": "/home/harshbhate/Basics/arrays_and_strings/is_unique/main.cpp"
 },
 
 {
-  "directory": "/home/harshbhate/Codes/Basics/arrays_and_strings/is_unique/build",
-  "command": "/usr/bin/x86_64-linux-gnu-g++-7    -g   -o CMakeFiles/uniqueFunc.dir/isUnique.cpp.o -c /home/harshbhate/Codes/Basics/arrays_and_strings/is_unique/isUnique.cpp",
-  "file": "/home/harshbhate/Codes/Basics/arrays_and_strings/is_unique/isUnique.cpp"
+  "directory": "/home/harshbhate/Basics/arrays_and_strings/is_unique/build",
+  "command": "/usr/bin/x86_64-linux-gnu-g++-7    -g   -o CMakeFiles/uniqueFunc.dir/isUnique.cpp.o -c /home/harshbhate/Basics/arrays_and_strings/is_unique/isUnique.cpp",
+  "file": "/home/harshbhate/Basics/arrays_and_strings/is_unique/isUnique.cpp"
 }
 ]

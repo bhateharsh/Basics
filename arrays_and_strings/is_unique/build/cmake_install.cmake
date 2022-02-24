@@ -1,4 +1,4 @@
-# Install script for directory: /home/harshbhate/Codes/Basics/arrays_and_strings/is_unique
+# Install script for directory: /home/harshbhate/Basics/arrays_and_strings/is_unique
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/harshbhate/Codes/Basics/arrays_and_strings/is_unique/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/harshbhate/Basics/arrays_and_strings/is_unique/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

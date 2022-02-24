@@ -34,7 +34,7 @@ include rules.ninja
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/harshbhate/Codes/Basics/arrays_and_strings/is_unique/build && /usr/bin/cmake -H/home/harshbhate/Codes/Basics/arrays_and_strings/is_unique -B/home/harshbhate/Codes/Basics/arrays_and_strings/is_unique/build
+  COMMAND = cd /home/harshbhate/Basics/arrays_and_strings/is_unique/build && /usr/bin/cmake -H/home/harshbhate/Basics/arrays_and_strings/is_unique -B/home/harshbhate/Basics/arrays_and_strings/is_unique/build
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -44,7 +44,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # Utility command for test
 
 build CMakeFiles/test.util: CUSTOM_COMMAND
-  COMMAND = cd /home/harshbhate/Codes/Basics/arrays_and_strings/is_unique/build && /usr/bin/ctest --force-new-ctest-process
+  COMMAND = cd /home/harshbhate/Basics/arrays_and_strings/is_unique/build && /usr/bin/ctest --force-new-ctest-process
   DESC = Running tests...
   pool = console
   restat = 1
@@ -84,7 +84,7 @@ build runTests: CXX_EXECUTABLE_LINKER__runTests CMakeFiles/runTests.dir/tests.cp
 # Utility command for package
 
 build CMakeFiles/package.util: CUSTOM_COMMAND all
-  COMMAND = cd /home/harshbhate/Codes/Basics/arrays_and_strings/is_unique/build && /usr/bin/cpack --config ./CPackConfig.cmake
+  COMMAND = cd /home/harshbhate/Basics/arrays_and_strings/is_unique/build && /usr/bin/cpack --config ./CPackConfig.cmake
   DESC = Run CPack packaging tool...
   pool = console
   restat = 1
@@ -222,7 +222,7 @@ build Experimental: phony CMakeFiles/Experimental
 # Utility command for package_source
 
 build CMakeFiles/package_source.util: CUSTOM_COMMAND
-  COMMAND = cd /home/harshbhate/Codes/Basics/arrays_and_strings/is_unique/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/harshbhate/Codes/Basics/arrays_and_strings/is_unique/build/CPackSourceConfig.cmake
+  COMMAND = cd /home/harshbhate/Basics/arrays_and_strings/is_unique/build && /usr/bin/cpack --config ./CPackSourceConfig.cmake /home/harshbhate/Basics/arrays_and_strings/is_unique/build/CPackSourceConfig.cmake
   DESC = Run CPack packaging tool for source...
   pool = console
   restat = 1
@@ -237,7 +237,7 @@ build ExperimentalConfigure: phony CMakeFiles/ExperimentalConfigure
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/harshbhate/Codes/Basics/arrays_and_strings/is_unique/build && /usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/harshbhate/Basics/arrays_and_strings/is_unique/build && /usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 build edit_cache: phony CMakeFiles/edit_cache.util
@@ -311,196 +311,196 @@ build ExperimentalBuild: phony CMakeFiles/ExperimentalBuild
 # Custom command for CMakeFiles/ContinuousSubmit
 
 build CMakeFiles/ContinuousSubmit: CUSTOM_COMMAND
-  COMMAND = cd /home/harshbhate/Codes/Basics/arrays_and_strings/is_unique/build && /usr/bin/ctest -D ContinuousSubmit
+  COMMAND = cd /home/harshbhate/Basics/arrays_and_strings/is_unique/build && /usr/bin/ctest -D ContinuousSubmit
   pool = console
 
 #############################################
 # Custom command for CMakeFiles/ContinuousMemCheck
 
 build CMakeFiles/ContinuousMemCheck: CUSTOM_COMMAND
-  COMMAND = cd /home/harshbhate/Codes/Basics/arrays_and_strings/is_unique/build && /usr/bin/ctest -D ContinuousMemCheck
+  COMMAND = cd /home/harshbhate/Basics/arrays_and_strings/is_unique/build && /usr/bin/ctest -D ContinuousMemCheck
   pool = console
 
 #############################################
 # Custom command for CMakeFiles/ContinuousConfigure
 
 build CMakeFiles/ContinuousConfigure: CUSTOM_COMMAND
-  COMMAND = cd /home/harshbhate/Codes/Basics/arrays_and_strings/is_unique/build && /usr/bin/ctest -D ContinuousConfigure
+  COMMAND = cd /home/harshbhate/Basics/arrays_and_strings/is_unique/build && /usr/bin/ctest -D ContinuousConfigure
   pool = console
 
 #############################################
 # Custom command for CMakeFiles/ExperimentalSubmit
 
 build CMakeFiles/ExperimentalSubmit: CUSTOM_COMMAND
-  COMMAND = cd /home/harshbhate/Codes/Basics/arrays_and_strings/is_unique/build && /usr/bin/ctest -D ExperimentalSubmit
+  COMMAND = cd /home/harshbhate/Basics/arrays_and_strings/is_unique/build && /usr/bin/ctest -D ExperimentalSubmit
   pool = console
 
 #############################################
 # Custom command for CMakeFiles/ExperimentalMemCheck
 
 build CMakeFiles/ExperimentalMemCheck: CUSTOM_COMMAND
-  COMMAND = cd /home/harshbhate/Codes/Basics/arrays_and_strings/is_unique/build && /usr/bin/ctest -D ExperimentalMemCheck
+  COMMAND = cd /home/harshbhate/Basics/arrays_and_strings/is_unique/build && /usr/bin/ctest -D ExperimentalMemCheck
   pool = console
 
 #############################################
 # Custom command for CMakeFiles/ExperimentalTest
 
 build CMakeFiles/ExperimentalTest: CUSTOM_COMMAND
-  COMMAND = cd /home/harshbhate/Codes/Basics/arrays_and_strings/is_unique/build && /usr/bin/ctest -D ExperimentalTest
+  COMMAND = cd /home/harshbhate/Basics/arrays_and_strings/is_unique/build && /usr/bin/ctest -D ExperimentalTest
   pool = console
 
 #############################################
 # Custom command for CMakeFiles/NightlyUpdate
 
 build CMakeFiles/NightlyUpdate: CUSTOM_COMMAND
-  COMMAND = cd /home/harshbhate/Codes/Basics/arrays_and_strings/is_unique/build && /usr/bin/ctest -D NightlyUpdate
+  COMMAND = cd /home/harshbhate/Basics/arrays_and_strings/is_unique/build && /usr/bin/ctest -D NightlyUpdate
   pool = console
 
 #############################################
 # Custom command for CMakeFiles/NightlyStart
 
 build CMakeFiles/NightlyStart: CUSTOM_COMMAND
-  COMMAND = cd /home/harshbhate/Codes/Basics/arrays_and_strings/is_unique/build && /usr/bin/ctest -D NightlyStart
+  COMMAND = cd /home/harshbhate/Basics/arrays_and_strings/is_unique/build && /usr/bin/ctest -D NightlyStart
   pool = console
 
 #############################################
 # Custom command for CMakeFiles/NightlyMemoryCheck
 
 build CMakeFiles/NightlyMemoryCheck: CUSTOM_COMMAND
-  COMMAND = cd /home/harshbhate/Codes/Basics/arrays_and_strings/is_unique/build && /usr/bin/ctest -D NightlyMemoryCheck
+  COMMAND = cd /home/harshbhate/Basics/arrays_and_strings/is_unique/build && /usr/bin/ctest -D NightlyMemoryCheck
   pool = console
 
 #############################################
 # Custom command for CMakeFiles/NightlyBuild
 
 build CMakeFiles/NightlyBuild: CUSTOM_COMMAND
-  COMMAND = cd /home/harshbhate/Codes/Basics/arrays_and_strings/is_unique/build && /usr/bin/ctest -D NightlyBuild
+  COMMAND = cd /home/harshbhate/Basics/arrays_and_strings/is_unique/build && /usr/bin/ctest -D NightlyBuild
   pool = console
 
 #############################################
 # Custom command for CMakeFiles/ExperimentalUpdate
 
 build CMakeFiles/ExperimentalUpdate: CUSTOM_COMMAND
-  COMMAND = cd /home/harshbhate/Codes/Basics/arrays_and_strings/is_unique/build && /usr/bin/ctest -D ExperimentalUpdate
+  COMMAND = cd /home/harshbhate/Basics/arrays_and_strings/is_unique/build && /usr/bin/ctest -D ExperimentalUpdate
   pool = console
 
 #############################################
 # Custom command for CMakeFiles/ContinuousBuild
 
 build CMakeFiles/ContinuousBuild: CUSTOM_COMMAND
-  COMMAND = cd /home/harshbhate/Codes/Basics/arrays_and_strings/is_unique/build && /usr/bin/ctest -D ContinuousBuild
+  COMMAND = cd /home/harshbhate/Basics/arrays_and_strings/is_unique/build && /usr/bin/ctest -D ContinuousBuild
   pool = console
 
 #############################################
 # Custom command for CMakeFiles/Continuous
 
 build CMakeFiles/Continuous: CUSTOM_COMMAND
-  COMMAND = cd /home/harshbhate/Codes/Basics/arrays_and_strings/is_unique/build && /usr/bin/ctest -D Continuous
+  COMMAND = cd /home/harshbhate/Basics/arrays_and_strings/is_unique/build && /usr/bin/ctest -D Continuous
   pool = console
 
 #############################################
 # Custom command for CMakeFiles/Experimental
 
 build CMakeFiles/Experimental: CUSTOM_COMMAND
-  COMMAND = cd /home/harshbhate/Codes/Basics/arrays_and_strings/is_unique/build && /usr/bin/ctest -D Experimental
+  COMMAND = cd /home/harshbhate/Basics/arrays_and_strings/is_unique/build && /usr/bin/ctest -D Experimental
   pool = console
 
 #############################################
 # Custom command for CMakeFiles/ExperimentalConfigure
 
 build CMakeFiles/ExperimentalConfigure: CUSTOM_COMMAND
-  COMMAND = cd /home/harshbhate/Codes/Basics/arrays_and_strings/is_unique/build && /usr/bin/ctest -D ExperimentalConfigure
+  COMMAND = cd /home/harshbhate/Basics/arrays_and_strings/is_unique/build && /usr/bin/ctest -D ExperimentalConfigure
   pool = console
 
 #############################################
 # Custom command for CMakeFiles/NightlyTest
 
 build CMakeFiles/NightlyTest: CUSTOM_COMMAND
-  COMMAND = cd /home/harshbhate/Codes/Basics/arrays_and_strings/is_unique/build && /usr/bin/ctest -D NightlyTest
+  COMMAND = cd /home/harshbhate/Basics/arrays_and_strings/is_unique/build && /usr/bin/ctest -D NightlyTest
   pool = console
 
 #############################################
 # Custom command for CMakeFiles/NightlyCoverage
 
 build CMakeFiles/NightlyCoverage: CUSTOM_COMMAND
-  COMMAND = cd /home/harshbhate/Codes/Basics/arrays_and_strings/is_unique/build && /usr/bin/ctest -D NightlyCoverage
+  COMMAND = cd /home/harshbhate/Basics/arrays_and_strings/is_unique/build && /usr/bin/ctest -D NightlyCoverage
   pool = console
 
 #############################################
 # Custom command for CMakeFiles/ExperimentalCoverage
 
 build CMakeFiles/ExperimentalCoverage: CUSTOM_COMMAND
-  COMMAND = cd /home/harshbhate/Codes/Basics/arrays_and_strings/is_unique/build && /usr/bin/ctest -D ExperimentalCoverage
+  COMMAND = cd /home/harshbhate/Basics/arrays_and_strings/is_unique/build && /usr/bin/ctest -D ExperimentalCoverage
   pool = console
 
 #############################################
 # Custom command for CMakeFiles/NightlyMemCheck
 
 build CMakeFiles/NightlyMemCheck: CUSTOM_COMMAND
-  COMMAND = cd /home/harshbhate/Codes/Basics/arrays_and_strings/is_unique/build && /usr/bin/ctest -D NightlyMemCheck
+  COMMAND = cd /home/harshbhate/Basics/arrays_and_strings/is_unique/build && /usr/bin/ctest -D NightlyMemCheck
   pool = console
 
 #############################################
 # Custom command for CMakeFiles/ContinuousStart
 
 build CMakeFiles/ContinuousStart: CUSTOM_COMMAND
-  COMMAND = cd /home/harshbhate/Codes/Basics/arrays_and_strings/is_unique/build && /usr/bin/ctest -D ContinuousStart
+  COMMAND = cd /home/harshbhate/Basics/arrays_and_strings/is_unique/build && /usr/bin/ctest -D ContinuousStart
   pool = console
 
 #############################################
 # Custom command for CMakeFiles/NightlySubmit
 
 build CMakeFiles/NightlySubmit: CUSTOM_COMMAND
-  COMMAND = cd /home/harshbhate/Codes/Basics/arrays_and_strings/is_unique/build && /usr/bin/ctest -D NightlySubmit
+  COMMAND = cd /home/harshbhate/Basics/arrays_and_strings/is_unique/build && /usr/bin/ctest -D NightlySubmit
   pool = console
 
 #############################################
 # Custom command for CMakeFiles/ContinuousCoverage
 
 build CMakeFiles/ContinuousCoverage: CUSTOM_COMMAND
-  COMMAND = cd /home/harshbhate/Codes/Basics/arrays_and_strings/is_unique/build && /usr/bin/ctest -D ContinuousCoverage
+  COMMAND = cd /home/harshbhate/Basics/arrays_and_strings/is_unique/build && /usr/bin/ctest -D ContinuousCoverage
   pool = console
 
 #############################################
 # Custom command for CMakeFiles/Nightly
 
 build CMakeFiles/Nightly: CUSTOM_COMMAND
-  COMMAND = cd /home/harshbhate/Codes/Basics/arrays_and_strings/is_unique/build && /usr/bin/ctest -D Nightly
+  COMMAND = cd /home/harshbhate/Basics/arrays_and_strings/is_unique/build && /usr/bin/ctest -D Nightly
   pool = console
 
 #############################################
 # Custom command for CMakeFiles/NightlyConfigure
 
 build CMakeFiles/NightlyConfigure: CUSTOM_COMMAND
-  COMMAND = cd /home/harshbhate/Codes/Basics/arrays_and_strings/is_unique/build && /usr/bin/ctest -D NightlyConfigure
+  COMMAND = cd /home/harshbhate/Basics/arrays_and_strings/is_unique/build && /usr/bin/ctest -D NightlyConfigure
   pool = console
 
 #############################################
 # Custom command for CMakeFiles/ExperimentalStart
 
 build CMakeFiles/ExperimentalStart: CUSTOM_COMMAND
-  COMMAND = cd /home/harshbhate/Codes/Basics/arrays_and_strings/is_unique/build && /usr/bin/ctest -D ExperimentalStart
+  COMMAND = cd /home/harshbhate/Basics/arrays_and_strings/is_unique/build && /usr/bin/ctest -D ExperimentalStart
   pool = console
 
 #############################################
 # Custom command for CMakeFiles/ContinuousTest
 
 build CMakeFiles/ContinuousTest: CUSTOM_COMMAND
-  COMMAND = cd /home/harshbhate/Codes/Basics/arrays_and_strings/is_unique/build && /usr/bin/ctest -D ContinuousTest
+  COMMAND = cd /home/harshbhate/Basics/arrays_and_strings/is_unique/build && /usr/bin/ctest -D ContinuousTest
   pool = console
 
 #############################################
 # Custom command for CMakeFiles/ContinuousUpdate
 
 build CMakeFiles/ContinuousUpdate: CUSTOM_COMMAND
-  COMMAND = cd /home/harshbhate/Codes/Basics/arrays_and_strings/is_unique/build && /usr/bin/ctest -D ContinuousUpdate
+  COMMAND = cd /home/harshbhate/Basics/arrays_and_strings/is_unique/build && /usr/bin/ctest -D ContinuousUpdate
   pool = console
 
 #############################################
 # Custom command for CMakeFiles/ExperimentalBuild
 
 build CMakeFiles/ExperimentalBuild: CUSTOM_COMMAND
-  COMMAND = cd /home/harshbhate/Codes/Basics/arrays_and_strings/is_unique/build && /usr/bin/ctest -D ExperimentalBuild
+  COMMAND = cd /home/harshbhate/Basics/arrays_and_strings/is_unique/build && /usr/bin/ctest -D ExperimentalBuild
   pool = console
 # =============================================================================
 # Target aliases.

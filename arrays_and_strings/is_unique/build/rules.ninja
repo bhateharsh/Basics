@@ -80,7 +80,7 @@ rule CXX_STATIC_LIBRARY_LINKER__uniqueFunc
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /usr/bin/cmake -H/home/harshbhate/Codes/Basics/arrays_and_strings/is_unique -B/home/harshbhate/Codes/Basics/arrays_and_strings/is_unique/build
+  command = /usr/bin/cmake -H/home/harshbhate/Basics/arrays_and_strings/is_unique -B/home/harshbhate/Basics/arrays_and_strings/is_unique/build
   description = Re-running CMake...
   generator = 1
 

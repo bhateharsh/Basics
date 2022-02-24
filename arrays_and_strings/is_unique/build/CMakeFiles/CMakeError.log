@@ -1,17 +1,17 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/harshbhate/Codes/Basics/arrays_and_strings/is_unique/build/CMakeFiles/CMakeTmp
+Change Dir: /home/harshbhate/Basics/arrays_and_strings/is_unique/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/ninja" "cmTC_8d835"
-[1/2] Building C object CMakeFiles/cmTC_8d835.dir/CheckSymbolExists.c.o
-[2/2] Linking C executable cmTC_8d835
-FAILED: cmTC_8d835 
-: && /usr/bin/x86_64-linux-gnu-gcc-7   -rdynamic CMakeFiles/cmTC_8d835.dir/CheckSymbolExists.c.o  -o cmTC_8d835   && :
-CMakeFiles/cmTC_8d835.dir/CheckSymbolExists.c.o: In function `main':
+Run Build Command:"/usr/bin/ninja" "cmTC_c385b"
+[1/2] Building C object CMakeFiles/cmTC_c385b.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_c385b
+FAILED: cmTC_c385b 
+: && /usr/bin/x86_64-linux-gnu-gcc-7   -rdynamic CMakeFiles/cmTC_c385b.dir/CheckSymbolExists.c.o  -o cmTC_c385b   && :
+CMakeFiles/cmTC_c385b.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
 ninja: build stopped: subcommand failed.
 
-File /home/harshbhate/Codes/Basics/arrays_and_strings/is_unique/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/harshbhate/Basics/arrays_and_strings/is_unique/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -27,13 +27,13 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/harshbhate/Codes/Basics/arrays_and_strings/is_unique/build/CMakeFiles/CMakeTmp
+Change Dir: /home/harshbhate/Basics/arrays_and_strings/is_unique/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/ninja" "cmTC_e9db1"
-[1/2] Building C object CMakeFiles/cmTC_e9db1.dir/CheckFunctionExists.c.o
-[2/2] Linking C executable cmTC_e9db1
-FAILED: cmTC_e9db1 
-: && /usr/bin/x86_64-linux-gnu-gcc-7 -DCHECK_FUNCTION_EXISTS=pthread_create  -rdynamic CMakeFiles/cmTC_e9db1.dir/CheckFunctionExists.c.o  -o cmTC_e9db1  -lpthreads && :
+Run Build Command:"/usr/bin/ninja" "cmTC_32137"
+[1/2] Building C object CMakeFiles/cmTC_32137.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_32137
+FAILED: cmTC_32137 
+: && /usr/bin/x86_64-linux-gnu-gcc-7 -DCHECK_FUNCTION_EXISTS=pthread_create  -rdynamic CMakeFiles/cmTC_32137.dir/CheckFunctionExists.c.o  -o cmTC_32137  -lpthreads && :
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
 ninja: build stopped: subcommand failed.
