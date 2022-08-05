@@ -1,8 +1,7 @@
 #include <string>
 #include <bitset>
 #include <vector>
-
-#define N_CHARS 128
+#include "isUnique.h"
 
 bool isUnique(const std::string &word)
 {

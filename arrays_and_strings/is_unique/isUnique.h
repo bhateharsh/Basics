@@ -6,6 +6,8 @@
 #include <bitset>
 #include <vector>
 
+#define N_CHARS 128
+
 bool isUnique(const std::string &word);
 
 #endif
